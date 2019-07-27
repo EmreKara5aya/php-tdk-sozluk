@@ -28,7 +28,7 @@ Aramak istediğiniz sözcüğü terim adlı get değişkeni ile arayabilirsiniz.
 
 ### Örnekler
 
-- Herhangi bir sözcük aramak istiyorsanız sozcuk.php=terim=sözcük olarak arayabilirsiniz.
+- Herhangi bir sözcük aramak istiyorsanız sozcuk.php?terim=sözcük olarak arayabilirsiniz.
 - Atasözü veya Deyim aramak istiyorsanız atasozudeyim.php?terim=deyim olarak arayabilirsiniz.
 - Kişi ad anlamlarını aramak istiyorsanız kisiadi.php?terim=ad olarak arabilirsiniz.
 
