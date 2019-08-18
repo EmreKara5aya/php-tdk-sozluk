@@ -1,10 +1,10 @@
 <?php
 header('Content-Type: application/json');
-$terim = $_GET['terim'];
-if ($terim == "") {
+if (!isset($_GET['terim']) || $_GET['terim'] == "") {
 	 $uyari['hata'] = 'Lütfen Terim Giriniz';
  	die(json_encode($uyari));
- } 
+} 
+$terim = $_GET['terim'];
 function tdk($terim)
 {
 $sesveri = file_get_contents("http://sozluk.gov.tr/yazim?ara=$terim");
